@@ -1,4 +1,4 @@
-# Amber MidnightCommander Skin
+# Amber Midnight Commander Skin
 
 Save to `/usr/share/mc/skins/amber.ini`
 
