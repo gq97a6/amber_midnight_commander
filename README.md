@@ -1,6 +1,18 @@
 # Amber Midnight Commander Skin
 
-Save to `/usr/share/mc/skins/amber.ini`
+To use save to `/usr/share/mc/skins/amber.ini`
+
+In case of ***Unable to use skin with 256 colors support on non-256 colors terminal*** error add lines below to `~/.screenrc`
+```yml
+# Set default terminal type to support 256 colors, using xterm's definition
+term "xterm-256color"
+termcapinfo xterm* ti@:te@
+
+# Optional: If you want to ensure your hardstatus line also behaves well
+# defscrollback 10000
+```
+
+
 
 ![](1.png "")
 ![](2.png "")
