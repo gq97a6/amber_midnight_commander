@@ -2,7 +2,8 @@
 
 To use save to `/usr/share/mc/skins/amber.ini`
 
-In case of ***Unable to use skin with 256 colors support on non-256 colors terminal*** error add lines below to `~/.screenrc`
+In case of ***Unable to use skin with 256 colors support on non-256 colors terminal*** error\
+add lines below to `~/.screenrc`.
 ```yml
 # Set default terminal type to support 256 colors, using xterm's definition
 term "xterm-256color"
