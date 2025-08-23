@@ -1,6 +1,7 @@
 # Amber Midnight Commander Skin
 
-To use save to `/usr/share/mc/skins/amber.ini`
+> [!NOTE]  
+> To use this skin, save this file (at the bottom of README.md) to `/usr/share/mc/skins/amber.ini`
 
 In case of ***Unable to use skin with 256 colors support on non-256 colors terminal*** error\
 add lines below to `~/.screenrc`.
