@@ -78,9 +78,9 @@ termcapinfo xterm* ti@:te@
 [error]
     _default_ = color255;color233
     errdfocus = color255;color233;bold
-    errdhotnormal = color203;color52
-    errdhotfocus = color214;color233;bold
-    errdtitle = color214;;bold
+    errdhotnormal = color255;color233;bold
+    errdhotfocus = color214;color233;
+    errdtitle = color214;color233;bold
 
 [filehighlight]
     directory = color251;;bold
