@@ -3,18 +3,23 @@
 > [!NOTE]  
 > To use this skin, save this file (scroll down) to `/usr/share/mc/skins/amber.ini`
 
-In case of ***Unable to use skin with 256 colors support on non-256 colors terminal*** error\
-add lines below to `~/.screenrc`.
-```yml
-# Set default terminal type to support 256 colors, using xterm's definition
-term "xterm-256color"
-termcapinfo xterm* ti@:te@
+> [!NOTE] 
+> In case of ***Unable to use skin with 256 colors support on non-256 colors terminal*** error\
+> add lines below to `~/.screenrc`.
+> ```yml
+> # Set default terminal type to support 256 colors, using xterm's definition
+> term "xterm-256color"
+> termcapinfo xterm* ti@:te@
+> # Optional: If you want to ensure your hardstatus line also behaves well
+> # defscrollback 10000
+> ```
 
-# Optional: If you want to ensure your hardstatus line also behaves well
-# defscrollback 10000
-```
-
-
+> [!NOTE]  
+> In case of issues when trying to run Midnight Commander with this skin under screen session
+> add this line to ~/.bashrc
+> ```yml
+> export TERM=xterm-256color
+> ```
 
 ![](1.png "")
 ![](2.png "")
