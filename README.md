@@ -4,7 +4,7 @@
 > To use this skin, save this file (scroll down) to `/usr/share/mc/skins/amber.ini`
 > ```bash
 > curl -L https://raw.githubusercontent.com/gq97a6/amber_midnight_commander/refs/heads/master/amber.ini -o /usr/share/mc/skins/amber.ini;
-> sed -i '/^skin=/d;$a skin=amber' ~/.config/mc/ini;
+> sed -i 's/^skin=.*/skin=dark/' ~/.config/mc/ini;
 > ```
 
 > [!NOTE]
